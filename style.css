@@ -30,3 +30,28 @@ body {
 .reset-btn {
 	display: inline-block;
 }
+
+
+@media (max-width: 600px) {
+  .container {
+    width: 95%;
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-box {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .add-btn, .reset-btn {
+    width: 100%;
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+
+  .header {
+    font-size: 1.5rem;
+  }
+}
