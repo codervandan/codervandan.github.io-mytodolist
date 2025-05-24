@@ -4,22 +4,16 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>To-Do</title>
+	<title>To-Do List</title>
 </head>
 <body>
-	<div class="main-header">
-		<header>
-			<h1>My To-Do List</h1>
-		</header>
-	</div>
-	<div class="main">
-		To-Do:
-		<input class="text-box" type="text"></input>
-		<button type="submit">add item</button><br>
-		<input class="chk" type="checkbox"/>
-		<input class="chk" type="checkbox"/>
-		<input class="chk" type="checkbox"/>
-		<input class="chk" type="checkbox"/>
+	<div class="container">
+		<h1 class="header">My To-Do List</h1>
+		<form class="action-items">
+			<input type="text" class="text-box" id="text-box" name="text-box"/>
+			<button class="add-btn" type="submit" id="text-box">add item</button>
+			<button class="reset-btn" type="reset" id="text-box">clear</button>
+		</form>
 	</div>
 </body>
 </html>
