@@ -1,37 +1,32 @@
 body {
+	margin: 0 auto;
 	background: blanchedalmond;
 }
 
-.main-header {
-	text-align: center;
-	border: 2px solid black;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	border: 2px solid darkgoldenrod;
+	width: 50vw;
+	margin: 35px auto 0 auto;
+	height: 50vh;
+	padding-top: 20px;
+	flex-direction: column;
+	gap: 10px;
 }
 
-.main {
-	border: 2px solid black;
-	width: 50%;
-	height: 250px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 20px;
-	text-align: center;
-}
-
-input {
-	margin-top: 5px;
-	margin-left: 5px;
-}
-
-.chk {
-	display: block;	
-	margin-left: 100px;
-	margin-top: 20px;
-
-}
 
 .text-box {
-	width: 10em;
+	width: 20vw;
+	height: 2vh;
+}
+
+.header {
+	/*flex-wrap: nowrap;*/
+}
+
+.reset-btn {
+	display: inline-block;
 }
